@@ -1,0 +1,35 @@
+{
+  "contract_name": "random_draw",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getArraySize",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b60f08061001e6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633b1cbad8811460465780638da5cb5b146068575b600080fd5b3415605057600080fd5b605660a1565b60405190815260200160405180910390f35b3415607257600080fd5b607860a8565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b6001545b90565b60035473ffffffffffffffffffffffffffffffffffffffff16815600a165627a7a72305820f5d0e5380462d14b6f152a7d38ca60dccd2a80a9d8d81a7dc0fb4b84679404080029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1513182444433
+}
